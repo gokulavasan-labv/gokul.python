@@ -1,0 +1,11 @@
+a={'id':1,'name':'abc'}
+print(a['id'])
+a['age']=18
+print(a)
+b={'cource':'python'}
+a.update(b)
+print(a)
+print(a.keys())
+print(a.values())
+print(a.items())
+print(a.pop())
